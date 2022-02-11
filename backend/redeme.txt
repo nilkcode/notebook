@@ -1,0 +1,2 @@
+1 - we use mongose models folder for diffrent datapoint ex: notes,user authetication, ,
+2 - we use all routes file in routes folder
