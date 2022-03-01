@@ -3,7 +3,7 @@ const JWT_SECRET = "harrypotter@isgoodboy"
 
 
 const fetchuser = (req, res , next) => {
-  //Get the user from the jwt toekn and add id to request object
+  //Get the user from the jwt token and add id to request object
 
   const token = req.header('auth-token');
   if(!token) {
