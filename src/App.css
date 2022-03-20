@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.card-link-btn {
+  border: none;
+  color:#fff;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.bg-outline-danger {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+
+.bg-outline-danger {
+  border: 1px solid #9cdc35;
+  color: #dc3545;
+}
+
+
+
+.card-link-btn:hover {
+    background-color:#dc3545;
+    color: #fff;
+}
+
