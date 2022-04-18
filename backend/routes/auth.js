@@ -56,7 +56,7 @@ router.post('/createuser',[
     }
 
      const authtoken = jwt.sign(data, JWT_SECRET);
-     console.log(authtoken);
+
      //res.json({user})         // use for response of user
      res.json({authtoken});
     }
@@ -106,7 +106,7 @@ router.post('/login',[
   
       const authtoken = jwt.sign(data, JWT_SECRET);
       res.json({authtoken});
-      console.log(authtoken);
+
 
      } catch(error){
       console.error(error.message);
